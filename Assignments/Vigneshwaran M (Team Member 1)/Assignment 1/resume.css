@@ -1,5 +1,24 @@
+h1{
+    color: blue;
+}
+.col-blue{
+    color: #990003;
+}
 
-
+.img-sha{
+    position: absolute;
+    
+    padding-left: 50rem;
+    padding-top: .5rem;
+    width: 150px;
+    height: 148px;
+    
+}
+img{
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+}
 
 .msg { padding: 10px; background: #222; position: relative; }
 .msg h1 { color: #fff;  }
@@ -60,5 +79,3 @@ a#pdf:hover { background: #222; }
 /* --// override to force 1/8th width grids -- */
 .yui-gf .yui-u{width:80.2%;}
 .yui-gf div.first{width:12.3%;}
-
-
